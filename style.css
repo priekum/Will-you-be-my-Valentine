@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 64.5%;
+}
+
+.main-section {
+  background-color: #fde2e4;
+  height: 100vh;
+  padding: 4.8rem;
+  color: #5a2a2a;
+}
+
+.container {
+  margin: 9.6rem auto;
+  background-color: #ffffff;
+  max-width: 120rem;
+  text-align: center;
+  padding: 9.6rem;
+}
+
+.heart {
+  font-size: 3.6rem;
+}
+
+.header-text {
+  font-size: 6.4rem;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+  padding: 2.4rem;
+}
+
+.btn {
+  background-color: #ff8fab;
+  padding: 4.8rem;
+  border-radius: 0.9rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  background-image: url(cat-snoot.jpg);
+  transform: scale(1.5);
+  background-size: cover;
+  color: #fde2e4;
+}
+
+.btn--oy:hover {
+  background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWZkOG16OGlxdnFvdGZtcGxyNWYxcDhxMWd2ejdkN3UzenZ2amVmaSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/LTcau7EnQLhHkxxG2u/giphy.gif);
+  transform: scale(1.5);
+  background-size: cover;
+}
